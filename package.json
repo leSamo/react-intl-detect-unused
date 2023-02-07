@@ -1,0 +1,19 @@
+{
+  "name": "react-intl-detect-unused",
+  "version": "1.0.0",
+  "description": "Finds react-intl translations which are unused in the current project.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.mjs --msg=./test/example/Messages.js"
+  },
+  "bin": {
+    "react-intl-unused": "index.mjs"
+  },
+  "author": "Samuel Oleksak",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-getopt": "^0.3.2",
+    "react-intl": "^6.2.8"
+  }
+}
