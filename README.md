@@ -1,3 +1,5 @@
+![npm version](https://img.shields.io/npm/v/react-intl-detect-unused.svg?style=flat)
+
 # react-intl-detect-unused
 Detects unused [react-intl](https://www.npmjs.com/package/react-intl) translation keys. Parses react-intl message definitions file and searches source files to find out which messages are unused.
 

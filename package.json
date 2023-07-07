@@ -1,6 +1,6 @@
 {
   "name": "react-intl-detect-unused",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds react-intl translations which are unused in the current project.",
   "main": "index.js",
   "type": "module",
@@ -10,10 +10,16 @@
   "bin": {
     "react-intl-unused": "index.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leSamo/react-intl-detect-unused"
+  },
+  "homepage": "https://github.com/leSamo/react-intl-detect-unused",
+  "keywords": ["react-intl", "detect unused", "unused", "translations", "intl"],
   "author": "Samuel Oleksak",
   "license": "Apache-2.0",
   "dependencies": {
-    "node-getopt": "^0.3.2",
-    "react-intl": "^6.2.8"
+    "node-getopt": "~0.3.2",
+    "react-intl": ">=6.0.0"
   }
 }
